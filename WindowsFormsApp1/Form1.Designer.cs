@@ -30,6 +30,7 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.Gaspars1 = new System.Windows.Forms.Label();
+            this.Gaspars2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Gaspars1
@@ -41,11 +42,21 @@ namespace WindowsFormsApp1
             this.Gaspars1.TabIndex = 0;
             this.Gaspars1.Text = "1 februaris 20:40";
             // 
+            // Gaspars2
+            // 
+            this.Gaspars2.AutoSize = true;
+            this.Gaspars2.Location = new System.Drawing.Point(109, 150);
+            this.Gaspars2.Name = "Gaspars2";
+            this.Gaspars2.Size = new System.Drawing.Size(138, 17);
+            this.Gaspars2.TabIndex = 1;
+            this.Gaspars2.Text = "change No.1 - 20:45";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 423);
+            this.Controls.Add(this.Gaspars2);
             this.Controls.Add(this.Gaspars1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +68,7 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.Label Gaspars1;
+        private System.Windows.Forms.Label Gaspars2;
     }
 }
 
